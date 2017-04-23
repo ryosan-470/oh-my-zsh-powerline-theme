@@ -1,29 +1,21 @@
-oh-my-zsh-powerline-theme
+zsh-theme
 =========================
 
-oh-my-zsh Powerline style Theme
+My ZSH prompt theme which is forked from [jeremyFreeAgent/oh-my-zsh-powerline-theme](https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme)
 
 Preview
 -------
 
-![Preview](https://raw.githubusercontent.com/jeremyFreeAgent/oh-my-zsh-powerline-theme/master/preview.png)
+![Preview](./preview.png)
 
 Set Up
 ------
 
-1. Clone the repository.
+Configure the theme in your .zshrc file when you use [zplug](https://github.com/zplug/zplug)
 
-2. Create a symlink of **powerline.zsh-theme** in **.oh-my-zsh/themes/**. You can use the **install_in_omz.sh** file:
-
-    ```
-    ./install_in_omz.sh
-    ```
-
-3. Configure the theme in your **.zshrc** file:
-
-    ```
-    ZSH_THEME="powerline"
-    ```
+```
+zplug "ryosan-470/zsh-theme", as:theme
+```
 
 More options
 ------------
