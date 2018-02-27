@@ -151,6 +151,12 @@ POWERLINE_GIT_RENAMED="➜"
 POWERLINE_GIT_UNMERGED="═"
 ```
 
+If you want to show `terraform workspace show` information in the prompt:
+
+```
+POWERLINE_TERRAFORM_WORKSPACE="true"
+```
+
 Requirements
 ------------
 
